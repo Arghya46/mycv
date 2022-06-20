@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Poppins:ital,wght@0,400;1,300;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Pacifico&family=Poppins:ital,wght@0,400;1,300;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=League+Gothic&family=Pacifico&family=Poppins:ital,wght@0,400;1,300;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600&family=Cedarville+Cursive&family=League+Gothic&family=Pacifico&family=Poppins:ital,wght@0,400;1,300;1,600&display=swap');
+*
+{
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{ 
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eaf6f6;
+  }
+nav{
+    background: #eaf6f6;
+    height: 90px;
+    width: 100%;   
+}
+
+label .logo
+{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+
+}
+nav ul
+{
+    float: right;
+    margin-right: 20px;
+
+}
+nav ul li{
+   
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    padding: 0px 75px;
+}
+nav ul li a{
+    color: #66BFBF;
+    font-size: 17px;
+    padding: 0px 25px;
+}
+a.active,a:hover
+{
+    background: #AEDBCE;
+    transition: 0.5s;
+    
+}
+.main-container{
+    font-size: 25px;
+    padding: 0px 150px;
+    justify-content: center;
+    text-align: center;
+}
+.container{
+    padding: 0px 25px;
+}
+hr{
+  background-color: white;
+  border-style: dotted none none;
+  border-color: grey;
+  border-width: 5px;
+  height: 0px;
+  width: 3%;
+}
+h1{
+    font-family: Pacifico;
+    color:#66BFBF ;
+}
+h3{
+font-size: 25px;
+font-family: cursive;
+color: #66BFBF;
+}
+
+footer{
+     background-color: #eaf6f6;
+     color: #eaf6f6;
+     /* text-align: center; */
+     text-decoration: double;
+     text-size-adjust: 200%;
+     text-emphasis-color: #839AA8;
+     display: inline-block;
+}
+li{
+    color: #66BFBF;
+}
+h2{
+    font-size: 15px;
+    font-family: cursive;
+    color: #66BFBF
+
+}
+p{
+   font-family:Caveat ;
+
+}
+.text-center
+{
+    text-size-adjust: 10px;
+}
+.last style p
+{    text-size-adjust: 5px;
+    color: black;
+
+}
+.main-container img
+{
+    border-radius: 50%;
+    border: 10px solid white;
+}
